@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="head1">
+<div class="container">
+<h1 class="logo">African-Woman</h1> 
+<button class="show2" onclick="showtherest()" >Toggle</button>
+<div class="show1">
+    <button class="btn">Home</button>
+    <button class="btn">Clothings</button>
+    <button class="btn">Hairstyles</button>
+    <button class="btn">Ladies</button>
+</div>
+</div>
+    </section>
+    <div class="carrier">
+        <div class="captionC">
+            <p class="caption">In the rich tapestry of African fashion, the Ankara gown emerges as a symbol of cultural pride and elegance. Meet Amina, a remarkable African woman whose love for the Ankara gown transcends mere fashion trends. Raised with a deep appreciation for her heritage, Amina sees the Ankara gown as more than just clothing—it's a connection to her roots, a celebration of tradition, and a platform for self-expression. With each stitch, she honors the artisans who weave stories into fabric, blending tradition with modernity to create timeless looks that exude confidence and grace. </p>
+        </div>
+   <div class="diplayC">  <img class="display" src="ankara wear.jpeg">
+   </div>
+       </div>
+       <div class="carrier">
+    <div class="diplayC2">
+    <img class="display2" src="lady on suit.jpeg">
+ </div>
+ <div class="captionC">
+ <p class="captionn">Adorned in a tailored suit, the African woman exudes confidence and elegance, breaking barriers with every stride. Her attire, a symbol of professionalism and empowerment, speaks volumes of her determination and resilience. With grace and poise, she challenges stereotypes and paves the way for others to follow. In the boardroom, she commands attention with her intellect and savvy, a true leader in her own right. Her suit, a fusion of modern style and African heritage, reflects her unique identity and cultural pride. </p>
+</div>
+</div>
+<div class="carrier1">
+    <div class="blue">
+        <img class="one" src="haircut1.jpeg">
+        <p>Her low-cut hair, a symbol of boldness and pride,
+            Echoes the strength of her roots, unapologetically defied.
+            In her confident stride, she wears her heritage with grace,
+            A testament to her beauty and the richness of her race.</p>
+    </div>
+   <div class="blue">
+    <img class="one1" src="haircut4.jpeg">
+    <p>With braids adorned, her hair tells stories untold,
+        Each strand a tribute to traditions centuries old.
+        In her braided crown, she carries the legacy of her kin,
+        A tapestry of culture, resilience, and beauty within.</p>
+   </div>
+</div>
+<h1 class="hl">Beautiful African Ladies</h1>
+<div class="almost">
+        <div class="first">
+        <img class="profilem" src="profile1.jpeg">
+        <p class="whatSheknows">Embracing my roots with every step.</p>
+        <h3 class="namem">Addanna</h3>
+    </div>
+    <div class="first">
+        <img class="profilem" src="profile2.jpeg">
+        <p class="whatSheknows">Celebrating the essence of African heritage.</p>
+        <h3 class="namem">Chimzurum</h3>
+    </div>
+    <div class="first">
+        <img class="profilem" src="profile3.jpeg">
+        <p class="whatSheknows">Radiating strength, beauty, and cultural pride.</p>
+        <h3 class="namem" >Chijimnakaya</h3>
+    </div>
+</div>
+<div class="bluee">
+<img class="onee" src="littlegirl.jpeg">
+<img class="onee" src="gown.jpeg">
+<img class="onee" src="haircut4.jpeg">
+<img class="onee" src="hairstyle2.jpeg">
+</div>
+<div class="final">
+    <h3 class="ft">African-Woman</h3>
+    <div class="fb">
+        <button class="btn">Home</button>
+        <button class="btn">Clothings</button>
+        <button class="btn">Hairstyles</button>
+        <button class="btn">Ladies</button>
+    </div>
+
+</div>
+<script>
+    function showtherest() {
+        let close = document.createElement('button');
+        close.innerHTML = "X";
+        close.className = "close";
+        close.addEventListener('click', function end (){
+            document.body.removeChild(div1);
+            document.body.removeChild(close);
+        })
+       let div1 = document.createElement('div');
+       div1.className = "myMenu";
+       let submenus1 = document.createElement('button');
+       submenus1.className = "btn1";
+       submenus1.innerHTML = "Home";
+       let submenus2 = document.createElement('button');
+       submenus2.className = "btn1";
+       submenus2.innerHTML = "clothings";
+       let submenus3 = document.createElement('button');
+       submenus3.className = "btn1";
+       submenus3.innerHTML = "Hairstyles";
+       let submenus4 = document.createElement('button');
+       submenus4.className = "btn1";
+       submenus4.innerHTML = "ladies";
+       document.body.appendChild(close);
+    document.body.appendChild(div1);
+        div1.appendChild(submenus1);
+        div1.appendChild(submenus2);
+        div1.appendChild(submenus3);
+        div1.appendChild(submenus4);
+    }
+</script>
+</body>
+</html>

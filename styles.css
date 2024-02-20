@@ -1,0 +1,262 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 95%;
+display: flex;
+padding: 10px;
+justify-content: space-between;
+background-color: rgb(196, 154, 235);
+white-space: nowrap;
+overflow: hidden;
+position: fixed;
+top: 0;
+}
+.logo{
+    color: white;
+}
+.btn{
+     border-radius: 10px;
+     width: 80px;
+     height: 40px;
+     padding: 5px;
+     background-color: transparent;
+     margin-top: 10px;
+     margin-left: 8px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+.show2{
+    visibility: hidden;
+}
+.btn:hover{
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    padding: 6px;
+    background-color: plum;
+    margin-top: 10px;
+    margin-left: 8px;
+   border: 1px solid white;
+   color: white;
+   font-size: 15px;
+ 
+}
+.carrier{
+    display: flex;
+margin-top: 130px;
+       gap: 10px;
+    color: red;
+    
+}
+.carrier .captionC{
+    text-align: center;
+   flex-grow: 1;
+}
+.fb{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.ft{
+    text-align: center;
+    color: antiquewhite;
+}
+.final{
+    padding: 10px;
+    width: 95%;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(196, 154, 235);
+}
+
+ .captionC .captionn{
+    color: plum;
+    font-weight: bold;
+}
+.carrier1{
+    display: flex;
+}
+.carrier1 .one{
+    width: 260px;
+       flex-grow: 1;
+   
+}
+.carrier1 .one1{
+    width: 260px;
+    flex-grow: 1;
+}
+.blue{
+    background-color: rgb(188, 205, 222);
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profilem{
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px;
+
+}
+.whatSheknows{
+    color: blueviolet;
+}
+.namem{
+    color: rgb(196, 154, 235);
+    font-weight: bold;
+    text-decoration: underline
+}
+.hl{
+    text-align: center;
+    color: blue;
+}
+.bluee{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.onee{
+    width: 260px;
+}
+@media only screen and (min-width: 861px) and (max-width: 1200px) {
+
+   .blue{
+    
+display: grid;
+grid-template-columns: repeat(2, 2fr) 
+   } 
+   .almost{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+   .bluee{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+   }
+   .container{
+    width: 100%;
+   }
+   .final{
+    width: 100%;
+   }
+}
+@media only screen and (min-width: 300px) and (max-width: 860px){
+    .show1{
+        display: none;
+    }
+    .show2{
+        visibility: visible;
+        border-radius: 10px;
+     width: 80px;
+     height: 40px;
+     padding: 5px;
+     background-color: transparent;
+     margin-top: 10px;
+     margin-left: 8px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    }
+    .show2:hover{
+        border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    padding: 6px;
+    background-color: plum;
+    margin-top: 10px;
+    margin-left: 8px;
+   border: 1px solid white;
+   color: white;
+   font-size: 15px;
+    }
+    .carrier{
+        flex-direction: column-reverse;
+        padding-top: 10px;
+        text-align: center;
+            }
+    .carrier1{
+        flex-direction: column-reverse;
+      padding-top: 10px;
+       text-align: center;
+    }
+    .bluee{
+        grid-template-columns: 1fr;
+    }
+    .onee {
+        width: 260px;
+        margin-left: 30%;
+        padding-bottom: 15px;
+    }
+    .myMenu{
+        background-color: rgb(196, 154, 235);
+        width: 150px;
+        height: 210px;
+        position: absolute;
+             bottom: 230px;
+             padding: 10px;
+             left: 338px;
+             position: fixed;
+    }
+            
+    .btn1{
+        display: block;
+             border-radius: 10px;
+     width: 80px;
+     height: 40px;
+     padding: 5px;
+     background-color: transparent;
+     margin-top: 10px;
+     margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    }
+    .btn1:hover{
+        border-radius: 25px;
+        width: 100px;
+        height: 50px;
+        padding: 6px;
+        background-color: plum;
+        margin-top: 10px;
+        margin-left: 30px;
+       border: 1px solid white;
+       color: white;
+       font-size: 15px;
+    }
+    .close{
+    border-radius: 10px;
+     width: 30px;
+     height: 20px;
+     padding: 3px;
+     background-color: plum;
+     margin-top: 10px;
+     margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 430px;
+    left: 440px;
+    z-index: 30;
+    position: fixed;
+    }
+    .close:hover{
+        border-radius: 25px;
+        width: 30px;
+        height: 20px;
+        padding: 3px;
+        background-color: red;
+        margin-top: 10px;
+        margin-left: 30px;
+       border: 1px solid white;
+       color: white;
+       font-size: 15px;
+    }
+}
