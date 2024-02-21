@@ -123,7 +123,7 @@ margin-top: 130px;
 .onee{
     width: 260px;
 }
-@media only screen and (min-width: 861px) and (max-width: 1200px) {
+@media only screen and (min-width: 1000px) {
 
    .blue{
     
@@ -147,7 +147,7 @@ grid-template-columns: repeat(2, 2fr)
     width: 100%;
    }
 }
-@media only screen and (min-width: 300px) and (max-width: 860px){
+@media only screen and (max-width: 760px){
     .show1{
         display: none;
     }
@@ -178,7 +178,7 @@ grid-template-columns: repeat(2, 2fr)
     }
     .carrier{
         flex-direction: column-reverse;
-        padding-top: 10px;
+        
         text-align: center;
             }
     .carrier1{
@@ -190,8 +190,8 @@ grid-template-columns: repeat(2, 2fr)
         grid-template-columns: 1fr;
     }
     .onee {
-        width: 260px;
-        margin-left: 30%;
+        width: 200px;
+        margin: 0 auto;
         padding-bottom: 15px;
     }
     .myMenu{
@@ -201,7 +201,7 @@ grid-template-columns: repeat(2, 2fr)
         position: absolute;
              bottom: 230px;
              padding: 10px;
-             left: 338px;
+             left: 9px;
              position: fixed;
     }
             
@@ -237,13 +237,13 @@ grid-template-columns: repeat(2, 2fr)
      padding: 3px;
      background-color: plum;
      margin-top: 10px;
-     margin-left: 32px;
+     margin-left: -5px;
     border: 1px solid white;
     color: white;
     font-size: 15px;
     position: absolute;
     bottom: 430px;
-    left: 440px;
+    left: 149px;
     z-index: 30;
     position: fixed;
     }
@@ -254,7 +254,7 @@ grid-template-columns: repeat(2, 2fr)
         padding: 3px;
         background-color: red;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: -5px;
        border: 1px solid white;
        color: white;
        font-size: 15px;
