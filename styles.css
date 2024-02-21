@@ -199,7 +199,7 @@ grid-template-columns: repeat(2, 2fr)
         width: 150px;
         height: 210px;
         position: absolute;
-             bottom: 280px;
+             bottom: 107px;
              padding: 10px;
              left: 9px;
              position: fixed;
@@ -242,7 +242,7 @@ grid-template-columns: repeat(2, 2fr)
     color: white;
     font-size: 15px;
     position: absolute;
-    bottom: 430px;
+    bottom: 130px;
     left: 149px;
     z-index: 30;
     position: fixed;
